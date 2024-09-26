@@ -1,0 +1,56 @@
+.resourceManagement {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resourceManagement h4 {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .form button {
+    background: #ff5a5f;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .resourceList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .resourceList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .resourceList button {
+    background: #ff5a5f;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  

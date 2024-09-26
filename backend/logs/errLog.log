@@ -1,0 +1,17 @@
+20240723	10:05:37	946d493e-2b73-4674-80d6-2d42de86f2fc	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/user	undefined
+20240723	10:07:04	2b43e45c-2208-48c4-a1c0-622587a0b495	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	10:17:13	082e534a-a05f-413f-902b-ab1dffbf96d1	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	10:18:18	d3d606bf-4638-4b82-b787-484d826d55d2	TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	10:28:48	b475e705-2047-442b-8fe9-8dff508d001d	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	11:35:35	fc1ed321-b128-42a7-a6fd-c0de2824afa2	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	11:36:50	5ef84790-83ea-4f98-8856-376a5bf762bd	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	12:10:10	df8eeed9-00fd-443d-b210-897c464fa83a	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	12:12:35	771517ec-bfbf-4a22-922f-e40b786b6af2	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	12:48:45	26e49c5a-f584-4350-88ce-c4c6fe1e3187	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	12:58:57	f89445e2-3435-4876-83a2-893a42b5f26a	TypeError: Cannot destructure property 'fullname' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	12:59:33	7116f266-14b6-49f3-9502-cd2134a1a0f2	TypeError: Cannot destructure property 'fullname' of 'req.body' as it is undefined.	POST	/users	undefined
+20240723	14:50:49	addf92a1-d87b-49c8-9c75-569fc8fb0928	TypeError: Cannot read properties of undefined (reading 'email')	POST	/users/signin	undefined
+20240723	14:51:34	176eb909-3593-4e4b-9446-4a6604915dd6	ReferenceError: user is not defined	POST	/users/signin	undefined
+20240723	14:51:57	6caadc2b-2dc1-48bf-ad9c-85ae7702d2a1	TypeError: Cannot read properties of undefined (reading 'email')	POST	/users/signin	undefined
+20240723	15:02:33	d4aae819-2806-47fa-b1bd-f65d12722c30	TypeError: Cannot read properties of undefined (reading 'email')	POST	/users/signin	undefined
+20240723	15:02:35	dc366df2-2be9-4c6c-adce-6ae3a297f906	TypeError: Cannot read properties of undefined (reading 'email')	POST	/users/signin	undefined

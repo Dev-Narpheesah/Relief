@@ -1,0 +1,17 @@
+20240723	10:12:11	41e70177-a6ca-4cab-9616-efd3247731bf	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240723	10:13:15	e045bcc4-c515-4e50-88c5-a69083053a7f	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240723	13:41:24	b689c558-5d97-4be4-8d9a-d74ec0c13c18	undefined: undefined	undefined	undefined
+20240723	14:43:23	3c8f4099-4eef-415a-a6aa-c639b3c3196b	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240723	14:43:25	c94a015a-d2ed-408b-a4f9-c1fd658856fa	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	11:21:44	17e50c46-1cb7-4719-8850-444ad53d29f9	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	14:39:02	7e8c84fc-d04e-44ef-8f13-802cc745c7e9	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:13:09	432fe6af-6719-47da-b887-f1299a4a8221	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:13:10	4a093d50-9151-49be-b6f3-dfb6632a5a8e	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:13:41	474db988-19cc-428e-a10d-8c7a5a35b703	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:13:41	11fed4c0-84b0-4d3b-a291-7278e1771ad3	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:14:34	1b9ad83a-d32c-4c5b-8a91-56e21eca7914	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:14:35	d8e67a02-3479-4dac-9855-aecbf7cf63da	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:16:18	620c6bb3-0cd4-4804-8a05-c1ab8528c22e	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:16:19	ce8d6068-e247-42a1-8495-66c04caa31ee	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:16:26	eb34df7b-b7cc-4622-aa51-e976a5213ab0	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net
+20240724	16:16:27	8627ea37-af3d-48a0-8e1a-d0f6b81fd397	undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.vm27m0c.mongodb.net

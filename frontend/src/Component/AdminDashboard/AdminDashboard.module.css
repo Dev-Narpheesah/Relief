@@ -1,0 +1,120 @@
+/* Dashboard.css */
+.dashboard {
+  display: flex;
+  height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.appbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 60px;
+  background-color: #2196f3;
+  color: white;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button, .home-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dashboard-title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.sidelist {
+  width: 240px;
+  background-color: #f4f4f4;
+  height: 100%;
+  position: absolute;
+  left: -240px;
+  transition: left 0.3s ease;
+}
+
+.sidelist.open {
+  left: 0;
+}
+
+.sidelist.closed {
+  left: -240px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 16px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 16px;
+  transition: margin-left 0.3s ease;
+}
+
+.content.shifted {
+  margin-left: 240px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.login-form div {
+  margin-bottom: 12px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
