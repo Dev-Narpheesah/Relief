@@ -13,7 +13,6 @@ const initialState = {
   gender: "",
   phone: 0,
   disasterType: "",
-  userImage: null,
   stakeholderName: "",
   stakeholderPhone: 0,
   stakeholderPosition: "",
@@ -110,15 +109,22 @@ const DisasterForm = () => {
 
         {/* Gender */}
         <label htmlFor="gender">Gender</label>
-        <input
-          
-          name="gender"
-          type="text"
-          placeholder="your gender"
-          value={formData.gender}
-          onChange={handleChange}
-          required
-        />
+        <select
+        
+        name="gender"
+        type="text"
+        placeholder="your gender"
+        value={formData.gender}
+        onChange={handleChange}
+        required
+        className={styles.select}
+      >
+        <option value="">Select Gender Type</option>
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Others">Other</option>
+      </select>
+      
 
         {/* Phone Number */}
         <label htmlFor="phone">Phone Number</label>
@@ -209,8 +215,6 @@ const DisasterForm = () => {
         >
           <option value="">Select Position</option>
           <option value="leader">Community Leader</option>
-          <option value="volunteer">Volunteer</option>
-          <option value="donor">Donor</option>
           <option value="coordinator">Coordinator</option>
           <option value="other">Other</option>
         </select>

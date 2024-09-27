@@ -103,9 +103,13 @@ textarea:focus {
   padding: 15px;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  width: 100%; /* Ensure label spans the full width */
 }
 
-img {
-  width: 100px;
-  margin-bottom: 8px;
+.previewImage {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px;
+  object-fit: cover; 
+  max-height: 400px; 
 }

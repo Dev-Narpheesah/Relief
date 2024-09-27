@@ -1,5 +1,5 @@
 const express = require('express');
-// const connectDB = require('./db');
+
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose')
@@ -31,11 +31,11 @@ app.use(bodyParser.json());
 
 
 // Define routes
-app.use('/api/auth', require('./routes/authRoute'));
-app.use('/api/disaster', require('./routes/disasterRoute'));
+
+
 app.use('/api/user', require('./routes/userRoute'));
 app.use('/api/admin', require('./routes/adminRoute'));
-app.use('/api/data', require('./routes/reportRoute'));
+
 app.use('/api/upload', require('./routes/uploadRoute'))
 
 const PORT = process.env.PORT || 4000;

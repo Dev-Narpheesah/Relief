@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: #0b3b52;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   max-width: 800px;
@@ -21,11 +21,11 @@ body {
 .contactContainer h2 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #007bff;
+  color: #f7f7f7;
 }
 
 .contactContainer form {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -48,12 +48,12 @@ body {
 
 .contactContainer form input:focus,
 .contactContainer form textarea:focus {
-  border-color: #007bff;
+  border-color: #49bcb5;
   outline: none;
 }
 
 .contactContainer form button {
-  background-color: #007bff;
+  background-color: #49bcb5;
   color: white;
   border: none;
   border-radius: 5px;
@@ -64,5 +64,5 @@ body {
 }
 
 .contactContainer form button:hover {
-  background-color: #0056b3;
+  background-color: #96e1dc;
 }

@@ -7,8 +7,6 @@ import { IoMenu, IoCloseSharp  } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Sidebar from "../Sidebar/SideBar";
 
-// import { UserContext } from "../../../Context/userContext";
-import useAuthRedirect from "../../../Context/useAuth";
 import { AuthContext } from "../../../Context/AuthContext";
 import DashboardHeader from "./DashboardHeader";
 
@@ -23,7 +21,7 @@ export const shortenText = (text, n) => {
 const UserDashboard = () => {
 
 
-  useAuthRedirect();
+
   const { user } = useContext(AuthContext);
   const [data, setData] = useState([]);
   const [checkedInCount, setCheckedInCount] = useState(0);
